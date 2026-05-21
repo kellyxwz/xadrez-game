@@ -3,11 +3,11 @@ package org.example.boardgame;
 public class Position {
 
     private int row;
-    private int conlumn;
+    private int column;
 
-    public Position(int row, int conlumn) {
+    public Position(int row, int column) {
         this.row = row;
-        this.conlumn = conlumn;
+        this.column = column;
     }
 
     public int getRow() {
@@ -18,16 +18,16 @@ public class Position {
         this.row = row;
     }
 
-    public int getConlumn() {
-        return conlumn;
+    public int getColumn() {
+        return column;
     }
 
-    public void setConlumn(int conlumn) {
-        this.conlumn = conlumn;
+    public void setColumn(int column) {
+        this.column = column;
     }
 
     @Override
     public String toString() {
-        return row + "," + conlumn;
+        return row + "," + column;
     }
 }
