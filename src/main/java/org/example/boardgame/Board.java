@@ -1,6 +1,5 @@
 package org.example.boardgame;
 
-import org.example.chess.Color;
 
 public class Board {
 
